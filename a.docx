@@ -1,0 +1,5 @@
+if [ -d /c/Users/vishal/desktop/backup/$filename1 ]
+    then
+        echo "inside the if condition"
+        rm -r /c/Users/vishal/desktop/backup/$filename1
+    fi
